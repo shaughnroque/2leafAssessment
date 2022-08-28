@@ -9,6 +9,8 @@ Javascript/jQuery Test: 1) Make it so that the header slides right every 5 secon
 
 1. Break down the problem to what I know and start a plan to make the headers slide right every 5 seconds to reveal a different image.
 
+- Problem: Every 5 seconds the header image will slide right and change to an alternate image
+
 - setInterval?
 - 
 
