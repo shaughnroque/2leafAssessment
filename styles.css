@@ -67,16 +67,16 @@
     padding-right:120px;
 }
 
-.levelup-container{
+.levelup-container, .program-container{
     height:50vh;
-    background-color: black;
+    background-color: #151515;
     display:flex;
     justify-content: center;
     align-items: center;
     padding:100px;
 }
 
-.levelup-title{
+.levelup-title, .program-title{
     padding-left:100px;
     padding-right:100px;
     font-family: 'Alfa Slab One';
@@ -85,9 +85,10 @@
     font-size: 48px;
     line-height: 66px;
     color:#FF9900;
+   
 }
 
-.levelup-text{
+.levelup-text, .program-text{
     padding:50px;
     color:#F5F5F5;
     font-family: 'Open Sans';
@@ -98,12 +99,194 @@
 }
 
 .line {
+    position: absolute;
+    width: 432px;
+    height: 0px;
+    left: 504px;
+    top: 1200px;
+    border: 1px solid #FF9900
+}
 
-position: absolute;
-width: 432px;
-height: 0px;
-left: 504px;
-top: 1200px;
+.line-2 {
+    position: absolute;
+    width: 432px;
+    height: 0px;
+    left: 504px;
+    top: 1583px;
+    border: 1px solid #FF9900
+}
 
-border: 1px solid #FF9900
+.coaching-container{
+    height:100vh;
+    background-color: #151515;
+}
+
+.coaching-title{
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    color:#FF9900;
+    padding-top: 50px;
+    padding-left:200px;
+}
+
+.coaching-text-box{
+    display:flex;
+    justify-content: center;
+    margin-top:50px;
+}
+
+.damon-container{
+    height:550px;
+    width:500px;
+    background-color: #F5F5F5;
+    margin-right:25px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.bill-container{
+    height:550px;
+    width:500px;
+    background-color: #F5F5F5;
+    margin-right:25px;
+    padding-left:20px;
+    padding-top:20px;
+}
+
+.coaching-name{
+    width:50px;
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9900;
+    
+}
+
+.coaching-name-2{
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9900;
+}
+
+.coaching-occupation{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    display: flex;
+    align-items: center;
+    color: #151515;
+    padding-top:15px;
+}
+
+.coaching-information{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #151515;
+    padding-top:20px;
+    padding-right:20px;
+}
+.coaching-information-2{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 22px;
+    color: #151515;
+    padding-top:20px;
+    padding-right:20px;
+}
+
+.thankyou-container{
+    height:60vh;
+    background-image: url("assets/footer_image.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+
+.footer-text{
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #FF9900;
+    padding-top:42px;
+    width:400px;
+    position:absolute;
+    left:542px;
+}
+
+.footer-logos{
+    padding-top:200px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items:center;
+    margin-right:30px;
+}
+
+.form-section{
+    height:60vh;
+    background-color: #151515;
+}
+
+.form-title{
+    font-family: 'Alfa Slab One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    text-align: center;
+
+    color: #FF9900;
+    padding-top:20px;
+    padding-bottom:50px;
+}
+
+.form-container{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.form-example{
+    padding-bottom:40px;
+}
+
+.form-input-box{
+    width:432px;
+    height:48px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    padding-left:10px;
+}
+
+.form-btn{
+    width: 432px;
+    height: 48px;
+    background: #FF9900;
+    border-radius: 5px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
 }
