@@ -1,1 +1,109 @@
 /* Write CSS rules here: */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 62.5%; /*1rem = 10px 10/16 browser default font size = 62.5% 16 is the default font-size */
+}
+
+.hero-container{
+    background-image: url("assets/banner_image_1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:80vh;
+}
+
+.hero-nav{
+    padding-top:40px;
+    padding-left:50px;
+    display:flex;
+    align-items: center;
+}
+
+.hero-level-up-logo{
+    height:100px;
+    width:100px;
+    margin-right:auto;
+}
+
+.parent-portal-btn{
+    background-color: #FF9900;
+    margin-right:30px;
+    font-size:16px;
+    font-weight:400;
+    line-height: 22px;
+    padding:10px;
+    text-decoration: none;
+    border-radius: 5%;
+    font-family: 'Open Sans', sans-serif;
+    color:black;
+}
+
+.partnership-container{
+    /* background-color: black; */
+    height:35vh;
+}
+
+.partnership-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom:40px;
+}
+
+.partnership-title{
+    font-size:16px;
+    font-family:'Open Sans', sans-serif;
+}
+
+.partnership-images{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.partnership-image-1{
+    padding-right:120px;
+}
+
+.levelup-container{
+    height:50vh;
+    background-color: black;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:100px;
+}
+
+.levelup-title{
+    padding-left:100px;
+    padding-right:100px;
+    font-family: 'Alfa Slab One';
+    /* font-style: normal; */
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 66px;
+    color:#FF9900;
+}
+
+.levelup-text{
+    padding:50px;
+    color:#F5F5F5;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.line {
+
+position: absolute;
+width: 432px;
+height: 0px;
+left: 504px;
+top: 1200px;
+
+border: 1px solid #FF9900
+}
