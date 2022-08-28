@@ -1,0 +1,14 @@
+HTML/CSS
+1. Position the hr lines for smaller and bigger screens
+2. Fix the logos in thank you section for smaller bigger screens
+- start to add some media queries
+
+JS
+
+Javascript/jQuery Test: 1) Make it so that the header slides right every 5 seconds to reveal the alternate header (the picture of the children on the beach). 2) Create a modal popup that stickies to the center of the screen, prompting users to "Please enter your password". The modal should be toggleable by clicking outside of the modal, or in the X in the top left corner. 
+
+1. Break down the problem to what I know and start a plan to make the headers slide right every 5 seconds to reveal a different image.
+
+- setInterval?
+- 
+
