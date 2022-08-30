@@ -14,4 +14,4 @@ setInterval(function(){
     }
 }, 5000); // 5 second timer
 
-//Modal
+

@@ -11,6 +11,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     height:80vh;
+    width:100%;
 }
 
 .hero-nav{
@@ -80,7 +81,7 @@
     padding-left:100px;
     padding-right:100px;
     font-family: 'Alfa Slab One';
-    /* font-style: normal; */
+    font-style: normal;
     font-weight: 400;
     font-size: 48px;
     line-height: 66px;
@@ -291,13 +292,7 @@
     line-height: 22px;
 }
 
-.modal{
-    position: fixed;
-    background-color: white;
-    height:400px;
-    width:400px;
-    top:100px;
-}
+/* Media Queries */
 
 @media (min-width:1440px){
 
@@ -311,5 +306,19 @@
 
     .footer-text{
         left:780px;
+    }
+}
+
+@media (max-with:1440px) {
+    .line{
+        top: 1200px;
+    }
+    
+    .line-2{
+        top: 1583px;
+    }
+
+    .footer-text{
+        left:542px;
     }
 }
