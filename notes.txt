@@ -13,5 +13,7 @@ Javascript/jQuery Test: 1) Make it so that the header slides right every 5 secon
 
 
 - setInterval?
+- figure out how to make the image slide right 
 
 
+- Problem-2: Make a modal that stickies to the center of the page 

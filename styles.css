@@ -290,3 +290,26 @@
     font-size: 16px;
     line-height: 22px;
 }
+
+.modal{
+    position: fixed;
+    background-color: white;
+    height:400px;
+    width:400px;
+    top:100px;
+}
+
+@media (min-width:1440px){
+
+    .line{
+        top:1480px;
+    }
+    
+    .line-2{
+        top:1960px;
+    }
+
+    .footer-text{
+        left:780px;
+    }
+}

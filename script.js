@@ -1,7 +1,5 @@
-console.log('And this is where the Javascript goes')
-
+// Header Image Change
 // Trying to understand the solution I found on stack overflow
-
 let images = ["assets/banner_image_2.png","assets/banner_image_1.png"] //Making an array of images to use
 
 let imageHead = document.querySelector(".hero-container") // Getting the div of the background image to change
@@ -15,3 +13,5 @@ setInterval(function(){
         i = 0;
     }
 }, 5000); // 5 second timer
+
+//Modal
